@@ -2,7 +2,7 @@
 
 ## 🎥 Project Demo
 
-<video src="./Documentation/Project-Demo.mp4" controls width="800"></video>
+[<video src="./Documentation/Project-Demo.mp4" controls width="800"></video>](https://github.com/user-attachments/assets/26f25331-8b8b-4c60-aa3d-a7245cc1a3df)
 ---
 
 ## 🏗️ Architecture
