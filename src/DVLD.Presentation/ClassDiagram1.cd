@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DVLD.Presentation.Applications.DerainReleaseLicence.FrmDetainLicense" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.DerainReleaseLicence.FrmDetainLicense.ReturnedRowEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\DerainReleaseLicence\FrmDetainLicense.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CkAABAAAADAAABAQAkCAAAACABAARBEQAKggAAAKCAA=</HashCode>
+      <FileName>Applications\DerainReleaseLicence\FrmDetainLicense.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.DerainReleaseLicence.FrmListDetainedLicenses" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQIACAAKBAQAADAAAACQAAEAAEAgQgAAAACAAg=</HashCode>
+      <FileName>Applications\DerainReleaseLicence\FrmListDetainedLicenses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.DerainReleaseLicence.FrmReleaseLicense" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.DerainReleaseLicence.FrmReleaseLicense.ReturnedRowEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\DerainReleaseLicence\FrmReleaseLicense.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>WkBABAAAACAFABAQAkCAAAQCAAACRJEQAKggAAAKCAA=</HashCode>
+      <FileName>Applications\DerainReleaseLicence\FrmReleaseLicense.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.LocalDrivingLicence.FrmIssueDrivingLicence" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAACAAABAQAACAAAACAAAAQBAAAoAAAAIAAAI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\FrmIssueDrivingLicence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.L_D_LApp.ctrlLDL_ApplicationInfo" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g1AAABCoBCABABAABACQAEACIAAAABAEAAAQMAAkCCA=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\L_D_LApp\ctrlLDL_ApplicationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.L_D_LApp.FrmAddUpdateNewL_D_LApplication" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.L_D_LApp.FrmAddUpdateNewL_D_LApplication.LDL_AppReturnedRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\L_D_LApp\FrmAddUpdateNewL_D_LApplication.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Applications.L_D_LApp.FrmAddUpdateNewL_D_LApplication.LDL_AppDTOReturnedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\L_D_LApp\FrmAddUpdateNewL_D_LApplication.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AYAAiEAAACAQABAQBACAAFACAAAiQBAEAIBAAAIgAkA=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\L_D_LApp\FrmAddUpdateNewL_D_LApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.L_D_LApp.FrmLocalDrivingLicenseAppInfo" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\L_D_LApp\FrmLocalDrivingLicenseAppInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.L_D_LApp.FrmManageLocalLicenseApplications" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAIQqgCAAKBSSABCAQAIKUIAAAAAAgShQgAHGAAA=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\L_D_LApp\FrmManageLocalLicenseApplications.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.TestApp.FrmAddNewTestAppointment" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmAddNewTestAppointment.TestAppReturnedRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmAddNewTestAppointment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmAddNewTestAppointment.TestAppDTOReturnedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmAddNewTestAppointment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>oRAAAgAAACAgAFAQAACAAEQCACAgwBAAAKICAgIAACI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\TestApp\FrmAddNewTestAppointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.TestApp.FrmManageTestAppointment" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQIgCAgCFAQAACBEEACQAAgCAAAEwgAAAEEAAI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\TestApp\FrmManageTestAppointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.TestApp.FrmTakeTest" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmTakeTest.TestAppReturnedRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmTakeTest.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmTakeTest.TestAppDTOReturnedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmTakeTest.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gRAAAAAAACAgAFAQAACAAEACACAgwBAAAIAAAhIAACI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\TestApp\FrmTakeTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.TestApp.FrmUpdateTestAppointment" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmUpdateTestAppointment.TestAppReturnedRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmUpdateTestAppointment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Applications.TestApp.FrmUpdateTestAppointment.TestAppDTOReturnedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Applications\LocalDrivingLicence\TestApp\FrmUpdateTestAppointment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gRAAAAAAACAAAFAQAACAAEACACAgwBAAAIAAAgIAACI=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\TestApp\FrmUpdateTestAppointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Applications.Replacement.FrmRepladcement" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAABAAAACABABA4EGCAAAADAAAARIAQEKihAAAKAAg=</HashCode>
+      <FileName>Applications\Replacement\FrmRepladcement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Drivers.ctrlDriverLicenseInfo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+UAAEBAAADAAANAQgACAAABCKASA4AAAACAAAAAAQAA=</HashCode>
+      <FileName>Drivers\ctrlDriverLicenseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Drivers.FrmDriverLicenseInfo" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Drivers\FrmDriverLicenseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Drivers.FrmLicenseHistory" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACBAQAACAAEACQAAAAAAAASAAAAAgBAA=</HashCode>
+      <FileName>Drivers\FrmLicenseHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.UIHelper" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAgCAAAAEAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Generic\UIHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.UpdateAdd" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAAAQAAAAAAAIAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generic\UpdateAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.ctrlPersonCard" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Generic.ctrlPersonCard.DataRowBackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\ctrlPersonCard.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Generic.ctrlPersonCard.PerosnDTOBackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\ctrlPersonCard.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gRAAQBCAACAAAFAQiAKCIJAiAASAooAAAGAAAAEAAAA=</HashCode>
+      <FileName>People\ctrlPersonCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.FrmAddOrUpdateNewPerson" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Generic.FrmAddOrUpdateNewPerson.PersonDTOReturnedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\FrmAddOrUpdateNewPerson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Generic.FrmAddOrUpdateNewPerson.PersonReturnedRowEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\FrmAddOrUpdateNewPerson.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>dQCIAACAQGACAlAQAACCAAECAAHoQJgiAIAEAQIAEgI=</HashCode>
+      <FileName>People\FrmAddOrUpdateNewPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.FrmManagePeople" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACUoACAAKBASAELAAAICQAABAAAAgaBAgAACAAA=</HashCode>
+      <FileName>People\FrmManagePeople.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Generic.frmPersonInfo" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Generic.frmPersonInfo.DataRowBackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\frmPersonInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Generic.frmPersonInfo.PerosnDTOBackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\frmPersonInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAQiAAAAEAAAAAAAACAAAAA=</HashCode>
+      <FileName>People\frmPersonInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.MainForm" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAACAAAACAMQ7AAAAgHBPAAAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Program" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.ManageStatics.FrmManageApplicationTypes" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggCAgCBAQAACBAAACAAAAAABAAAAAgAAAAAA=</HashCode>
+      <FileName>ManageStatics\FrmManageApplicationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.ManageStatics.FrmManageLicenseClasses" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACBAQAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManageStatics\FrmManageLicenseClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.ManageStatics.FrmManageTestTypes" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggCAgCBAQAACBAAACAAAAAABAAAAAgAAAAAA=</HashCode>
+      <FileName>ManageStatics\FrmManageTestTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.ManageStatics.UpdateStatics.FrmUpdateApplicationTypes" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.ManageStatics.UpdateStatics.FrmUpdateApplicationTypes.ReturndRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ManageStatics\UpdateStatics\FrmUpdateApplicationTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAACAECAAABAQAACAAAACAAAAwBAABIAAAAIAAAA=</HashCode>
+      <FileName>ManageStatics\UpdateStatics\FrmUpdateApplicationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.ManageStatics.UpdateStatics.FrmUpdateTestTypes" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.ManageStatics.UpdateStatics.FrmUpdateTestTypes.ReturndRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ManageStatics\UpdateStatics\FrmUpdateTestTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAICAECAAABAQAACAAAACAAAAwBAABIAAAAIAAAA=</HashCode>
+      <FileName>ManageStatics\UpdateStatics\FrmUpdateTestTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.People.ctrlPersonCardFilter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DVLD.Presentation.People.ctrlPersonCardFilter.Filter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>People\ctrlPersonCardFilter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAADAAAACCAIBAQAACAAAACAAAAgAAQgAgACAACAAY=</HashCode>
+      <FileName>People\ctrlPersonCardFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAIAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Users.ctrlUserCard" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACIBAQQACAAABCAAAAAAAABCAAAAAAAAA=</HashCode>
+      <FileName>Users\ctrlUserCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Users.FrmAddUpdateNewUser" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="DVLD.Presentation.Users.FrmAddUpdateNewUser.UserReturnedRowHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Users\FrmAddUpdateNewUser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DVLD.Presentation.Users.FrmAddUpdateNewUser.UserDTOReturnedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Users\FrmAddUpdateNewUser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IYgAgEAYACACABAQAAKAAjASAAAgQBIAAIBAAAIgQAA=</HashCode>
+      <FileName>Users\FrmAddUpdateNewUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Users.FrmManageUsers" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQogCACLBASAACAAAICQAARAAAAgSBAgACCAAA=</HashCode>
+      <FileName>Users\FrmManageUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Presentation.Users.frmUserInfo" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAABACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\frmUserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DVLD.Presentation.Applications.DerainReleaseLicence.PeopleFilter" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAQCAAAAIAIAAAAAAAAEAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Applications\DerainReleaseLicence\FrmListDetainedLicenses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DVLD.Presentation.Applications.L_D_LApp.AppFilter" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACEAAAAAIAAAAAAAAIAAAAAAAAAAACAAIAAAAA=</HashCode>
+      <FileName>Applications\LocalDrivingLicence\L_D_LApp\FrmManageLocalLicenseApplications.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DVLD.Presentation.Generic.Mode" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Generic\UpdateAdd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DVLD.Presentation.Generic.PeopleFilter" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEiAACAAAACAAABAAAAAAAAQAAAAAAAAIAAACAg=</HashCode>
+      <FileName>People\FrmManagePeople.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DVLD.Presentation.Users.UsersFilter" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Users\FrmManageUsers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

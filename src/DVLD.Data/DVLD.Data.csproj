@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{583A5F68-EF96-4AB3-B8F1-571D99C7302A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DVLD.Data</RootNamespace>
+    <AssemblyName>DVLD.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Applications\DetainedLicenseEntity.cs" />
+    <Compile Include="Entities\Applications\GeneralApp\ApplicationTypeEntity.cs" />
+    <Compile Include="Entities\Applications\LocalDrivingLicence\LocalLicenseEntity.cs" />
+    <Compile Include="Entities\CountryEntity.cs" />
+    <Compile Include="Entities\Applications\GeneralApp\ApplicationEntity.cs" />
+    <Compile Include="Entities\Applications\LocalDrivingLicence\L_D_LApp\LicenseClassEntity.cs" />
+    <Compile Include="Entities\Applications\LocalDrivingLicence\L_D_LApp\L_D_LAppEntity.cs" />
+    <Compile Include="Entities\PersonEntity.cs" />
+    <Compile Include="Entities\Applications\LocalDrivingLicence\TestApp\TestAppointmentEntity.cs" />
+    <Compile Include="Entities\TestTypeEntity.cs" />
+    <Compile Include="Entities\UserEntity.cs" />
+    <Compile Include="Generic\BaseRepository.cs" />
+    <Compile Include="Generic\DataHelper.cs" />
+    <Compile Include="Generic\IBaseRepository.cs" />
+    <Compile Include="Generic\SqlExeptionCodes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Applications\DetainedLicenseRepository.cs" />
+    <Compile Include="Repositories\Applications\LocalDrivingLicense\LocalLicenseRepository.cs" />
+    <Compile Include="Repositories\Applications\LocalDrivingLicense\L_D_LApp\L_D_LAppRepository.cs" />
+    <Compile Include="Repositories\Applications\GeneralApp\ApplicationTypeRepository.cs" />
+    <Compile Include="Repositories\Applications\LocalDrivingLicense\TestApp\TestAppointmentRepository.cs" />
+    <Compile Include="Repositories\CountryRepository.cs" />
+    <Compile Include="Repositories\Applications\LocalDrivingLicense\L_D_LApp\LicenseClassRepository.cs" />
+    <Compile Include="Repositories\LoginValidationRepository.cs" />
+    <Compile Include="Repositories\PersonRepository.cs" />
+    <Compile Include="Repositories\TestTypeRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DVLD.Data.Entities.Applications.DetainedLicenseEntity">
+    <Position X="26.25" Y="16.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>wQMAAQAAAAAIAAAAAAAAAAEAAAAAEAAAAAAAAgAAgAA=</HashCode>
+      <FileName>Entities\Applications\DetainedLicenseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.ApplicationEntity">
+    <Position X="24" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAIAAAAAAAAAAAAAABAAAgAACAAAE=</HashCode>
+      <FileName>Entities\Applications\GeneralApp\ApplicationEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.ApplicationTypeEntity">
+    <Position X="25.25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Entities\Applications\GeneralApp\ApplicationTypeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.L_D_LAppEntity">
+    <Position X="32.75" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Entities\Applications\LocalDrivingLicence\L_D_LApp\L_D_LAppEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.LicenseClassEntity">
+    <Position X="28.75" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAgAAAAAAAEAAAAIAIAAAAAAAAA=</HashCode>
+      <FileName>Entities\Applications\LocalDrivingLicence\L_D_LApp\LicenseClassEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.TestAppointmentEntity">
+    <Position X="22.75" Y="17" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QQAABggAgAAABAQAAAAAAAAAAAAAAAAAAAAACAAAAAI=</HashCode>
+      <FileName>Entities\Applications\LocalDrivingLicence\TestApp\TestAppointmentEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.CountryEntity">
+    <Position X="18.75" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\CountryEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.PersonEntity">
+    <Position X="29.5" Y="16.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEiAACAAAACAAABAAIAAAAAQAAACAAAAIAAAAAg=</HashCode>
+      <FileName>Entities\PersonEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.TestTypeEntity">
+    <Position X="22.25" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TestTypeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.UserEntity">
+    <Position X="32" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAAAAgAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\UserEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Entities.Applications.LocalDrivingLicence.LocalLicenseEntity">
+    <Position X="18.75" Y="17.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EBAgAAAAAAAKAAAAEAAAAAEAQAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Applications\LocalDrivingLicence\LocalLicenseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Generic.BaseRepository&lt;T&gt;">
+    <Position X="15.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEBABCAQAAAEQAAAIAAAAAAAAAIA=</HashCode>
+      <FileName>Generic\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVLD.Data.Generic.DataHelper">
+    <Position X="21.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAEAAAAAAAAAJAAAAAAAAAAA=</HashCode>
+      <FileName>Generic\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Generic.SqlExeptionCodes">
+    <Position X="21.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Generic\SqlExeptionCodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.Applications.DetainedLicenseRepository">
+    <Position X="26.25" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAEAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Applications\DetainedLicenseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.ApplicationTypeRepository">
+    <Position X="25.25" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Applications\GeneralApp\ApplicationTypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.LicenseClassRepository">
+    <Position X="28.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Applications\LocalDrivingLicense\L_D_LApp\LicenseClassRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.CountryRepository">
+    <Position X="18.75" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\CountryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.PersonRepository">
+    <Position X="29.5" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAEAAAAAAAAAIAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\PersonRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.TestTypeRepository">
+    <Position X="22.25" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\TestTypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.UserRepository">
+    <Position X="32" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.Applications.L_D_LApp.L_D_LAppRepository">
+    <Position X="32.75" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAACAAAAAEBAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Applications\LocalDrivingLicense\L_D_LApp\L_D_LAppRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.Applications.LocalDrivingLicense.LocalLicenseRepository">
+    <Position X="18.75" Y="14.25" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="DVLD.Data.Repositories.Applications.LocalDrivingLicense.LocalLicenseRepository.Reason" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Repositories\Applications\LocalDrivingLicense\LocalLicenseRepository.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAIAEAAAAAEAAAAAAAAAAAEAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Repositories\Applications\LocalDrivingLicense\LocalLicenseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVLD.Data.Repositories.Applications.TestApp.TestAppointmentRepository">
+    <Position X="22.75" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAAAAAAAgEBAAAAAAAAAAAAAAAAAAAAACAAI=</HashCode>
+      <FileName>Repositories\Applications\LocalDrivingLicense\TestApp\TestAppointmentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DVLD.Data.Generic.IBaseRepository">
+    <Position X="18.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAABAACAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generic\IBaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
