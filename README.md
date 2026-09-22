@@ -71,7 +71,6 @@ The system provides functionality for managing:
 - **ADO.NET**
 - **3-Tier / N-Tier Architecture**
 - **Repository Pattern**
-- **Unit of Work**
 - **Dependency Injection**
 - **DTOs**
 
